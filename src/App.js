@@ -16,7 +16,7 @@ export default function App() {
   
   return <div className="App">
 
-    <header class="bg-gray-950 border-gray-200">
+    <header class="bg-gray-950 md:border-b md:border-amber-500 ">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 
         <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -65,7 +65,7 @@ export default function App() {
     </header>
 
     <Routes>
-      <Route path="/" element={<h1></h1>} />
+      <Route path="/" element={<Home/>} />
       <Route path="/home" element={<Home/>} />
       <Route path="/products" element={<Products/>} />
       <Route path="/about" element={<About/>} />
@@ -73,7 +73,7 @@ export default function App() {
       <Route path="*" element={<NoPage/>}/>
     </Routes>
 
-    <footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-950">
+    <footer class="p-4 md:p-8 lg:p-10 bg-gray-950 border-t border-gray-900">
      <div class="mx-auto max-w-screen-xl text-center">
 
       <div class="md:flex md:justify-between"> 

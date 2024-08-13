@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          "50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#2563eb","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a","950":"#172554"
+          "50":"#eff6ff","100":"#dbeafe","200":"#bfdbfe","300":"#93c5fd","400":"#60a5fa","500":"#3b82f6","600":"#b00","700":"#1d4ed8","800":"#1e40af","900":"#1e3a8a","950":"#172554"
         }
       },
       fontFamily: {
@@ -15,7 +15,16 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('./images/hero.jpg')",
-      }
+      },
+      keyframes: {
+        shimmer: {
+          from: { backgroundPosition: '200% 0' },
+          to: { backgroundPosition: '-200% 0' },
+        },
+      },
+        animation: {
+          shimmer: 'shimmer 12s ease-in-out infinite',
+        },
     },
   },
   plugins: [],
