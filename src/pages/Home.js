@@ -1,14 +1,12 @@
 import DermaDots from '../images/DermaDots.png'
-import Scientist from '../images/Scientist1.jpg'
-import Factory from '../images/Factory1.jpg'
 
 export default function Home() {
     return (
         <main>
 
-					<section class="bg-slate-950 bg-hero bg-top bg-cover shadow-[inset_0_0_0_100vmax_rgba(0,0,0,0.3)]">
-							<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-									<a href="https://amzn.eu/d/dDWmBWs" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 bg-gray-100 rounded-full dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
+					<section class=" animate-shimmer bg-gradient-to-r from-amber-500 via-amber-300 to-amber-500 bg-[length:400%_100%]">
+							<div class="py-8 bg-hero bg-top bg-cover shadow-[inset_0_0_0_100vmax_rgba(0,0,0,0.3)] px-4 w-full text-center lg:py-16 lg:px-12">
+									<a href="https://amzn.eu/d/dDWmBWs" class="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-gray-700 rounded-full bg-slate-950 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 my-10" role="alert">
 											<span class="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span class="text-sm font-medium">DermaDots have launched!</span> 
 											<svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
 									</a>
@@ -25,9 +23,9 @@ export default function Home() {
 													Amazon Store
 											</a>  
 									</div>
-									<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+									<div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36 my-10">
 											<span class="font-semibold text-gray-50 uppercase">FEATURED ON</span>
-											<div class="flex flex-wrap justify-between items-center mt-8 text-gray-500 sm:justify-between">
+											<div class="flex flex-wrap justify-between items-center mt-3 text-gray-500 sm:justify-between">
 
 													<a href="https://www.youtube.com/" class=" border border-solid border-gray-300 flex justify-center text-white items-center bg-none rounded-full w-20 h-20 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400">
 													<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
@@ -58,7 +56,7 @@ export default function Home() {
 							</div>
 					</section>
 
-					<section class="bg-slate-950">
+					<section class="bg-gray-950">
 						<div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
 								<img class="w-full dark:hidden" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup.svg" alt="dashboard image"/>
 								<img class="w-full hidden dark:block aspect-video object-contain bg-white rounded-lg border border-solid border-gray-700 shadow-md" src={DermaDots} alt="dashboard image"/>
@@ -73,8 +71,8 @@ export default function Home() {
 						</div>
 					</section>
 
-					<section class="bg-slate-950">
-						<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 border border-solid border-gray-950 animate-shimmer bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 bg-[length:400%_100%] md:rounded-lg">
+					<section class="bg-gray-950">
+						<div class="py-8 px-4 mx-4 md:mx-auto max-w-screen-xl sm:py-16 lg:px-6 border border-solid border-gray-950 animate-shimmer bg-gradient-to-r from-gray-950 via-gray-900 to-gray-950 bg-[length:400%_100%] rounded-lg">
 								<div class="mx-auto max-w-screen text-center">
 										<h2 class="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">TRIOSSE Collection</h2>
 										<p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Explore our full range of products. New products are under development and should be added soon!</p>
@@ -83,7 +81,7 @@ export default function Home() {
 						</div>
 					</section>
 
-					<section class="bg-slate-950">
+					<section class="bg-gray-950">
 						<div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
 								<div class="font-light text-gray-50 sm:text-lg">
 										<h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">A holistic approach.</h2>
@@ -91,8 +89,8 @@ export default function Home() {
 										{/* <p>Quality, Innovation, and Transparency isn't just a promise - It's the foundation this brand has been built upon.</p> */}
 								</div>
 								<div class="grid grid-cols-2 gap-4 mt-8">
-										<img class="w-full rounded-lg" src={Scientist} alt="office content 1"/>
-										<img class="w-full rounded-lg" src={Factory} alt="office content 2"/>
+										<img class="w-full rounded-lg" src="https://img.freepik.com/free-vector/female-scientist-colorful-illustration_23-2148406617.jpg?t=st=1724469254~exp=1724472854~hmac=8c831723becca36421ff2025ffa7fd2a9c55732cdcbcc8e691e87206fbad2ea3&w=900" alt="office content 1"/>
+										<img class="w-full rounded-lg" src="https://img.freepik.com/free-vector/illustration-with-save-planet_23-2148510122.jpg?t=st=1724469378~exp=1724472978~hmac=1b19eaefee748fa2581181127fbf44f4bd7d8c23ffcee83ee9073019b8830b45&w=900" alt="office content 2"/>
 								</div>
 						</div>
 					</section>

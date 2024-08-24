@@ -14,7 +14,7 @@ module.exports = {
         logo: ["Fredoka", "sans-serif"],
       },
       backgroundImage: {
-        'hero': "url('./images/hero.jpg')",
+        'hero': "url('./images/herotsp.png')",
       },
       keyframes: {
         shimmer: {
