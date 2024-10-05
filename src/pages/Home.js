@@ -4,7 +4,7 @@ import { Link, Route, Routes } from "react-router-dom";
 export default function Home() {
   return (
     <main>
-      <section class=" animate-shimmer bg-gradient-to-r from-amber-500 via-amber-300 to-amber-500 bg-[length:400%_100%]">
+      <section class="#">
         <div class="py-8 bg-hero bg-top bg-cover shadow-[inset_0_0_0_100vmax_rgba(0,0,0,0.3)] px-4 w-full text-center lg:py-16 lg:px-12">
           <a
             href="https://amzn.eu/d/dDWmBWs"
